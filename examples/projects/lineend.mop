@@ -1,0 +1,62 @@
+{
+ "format": "lithomask-project",
+ "version": 1,
+ "unit": "nm",
+ "name": "LINE_END",
+ "dbu_nm": 1.0,
+ "layers": [],
+ "cells": [
+  {
+   "name": "TOP",
+   "polygons": [
+    {
+     "layer": 1,
+     "datatype": 0,
+     "outer": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       1500.0,
+       0.0
+      ],
+      [
+       1500.0,
+       180.0
+      ],
+      [
+       0.0,
+       180.0
+      ]
+     ],
+     "holes": []
+    },
+    {
+     "layer": 1,
+     "datatype": 0,
+     "outer": [
+      [
+       1750.0,
+       0.0
+      ],
+      [
+       3250.0,
+       0.0
+      ],
+      [
+       3250.0,
+       180.0
+      ],
+      [
+       1750.0,
+       180.0
+      ]
+     ],
+     "holes": []
+    }
+   ],
+   "refs": []
+  }
+ ]
+}

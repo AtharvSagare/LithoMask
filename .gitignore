@@ -1,0 +1,34 @@
+# Python build and runtime artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Packaging output
+build/
+dist/
+*.spec.bak
+
+# Local settings, secrets, and logs
+.env
+.env.*
+!.env.example
+*.log
+*_out.txt
+*_err.txt
+capture_log.txt
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated project and report outputs
+examples/*_out/
+examples/e2e_out/
+*.html

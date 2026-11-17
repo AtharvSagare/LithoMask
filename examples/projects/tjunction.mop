@@ -1,0 +1,62 @@
+{
+ "format": "lithomask-project",
+ "version": 1,
+ "unit": "nm",
+ "name": "T_JUNCTION",
+ "dbu_nm": 1.0,
+ "layers": [],
+ "cells": [
+  {
+   "name": "TOP",
+   "polygons": [
+    {
+     "layer": 1,
+     "datatype": 0,
+     "outer": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       1800.0,
+       0.0
+      ],
+      [
+       1800.0,
+       180.0
+      ],
+      [
+       0.0,
+       180.0
+      ]
+     ],
+     "holes": []
+    },
+    {
+     "layer": 1,
+     "datatype": 0,
+     "outer": [
+      [
+       810.0,
+       180.0
+      ],
+      [
+       990.0,
+       180.0
+      ],
+      [
+       990.0,
+       1100.0
+      ],
+      [
+       810.0,
+       1100.0
+      ]
+     ],
+     "holes": []
+    }
+   ],
+   "refs": []
+  }
+ ]
+}

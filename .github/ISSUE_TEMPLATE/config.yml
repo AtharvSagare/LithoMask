@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: User Guide
+    url: https://github.com/AtharvSagare/LithoMask/blob/main/docs/LithoMask_User_Guide.pdf
+    about: Read the illustrated manual before opening an issue.

@@ -1,0 +1,8 @@
+numpy
+scipy
+gdstk
+shapely
+pyclipper
+PySide6
+matplotlib
+pytest
