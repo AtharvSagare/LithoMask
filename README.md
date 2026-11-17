@@ -121,7 +121,7 @@ No Python installation is required for the two Windows downloads. Prefer source?
 | **Truly free & open** | MIT-licensed. No licence server, no dongle, no seat limit — and the program makes no network connections. Read it, teach with it, extend it. |
 | **Physics you can inspect** | Every equation is documented in [`docs/technical-notes`](docs/technical-notes) with units and sources; the code states units and conventions explicitly. |
 | **Honest about its limits** | Where a format is proprietary (e.g. JEOL `.v30`) LithoMask does **not** guess — it exports the supported route and says so. See [Limitations](#-limitations--roadmap). |
-| **Tested** | 144 automated tests cover geometry, optics, resist, OPC, verification, calibration, export, plate rules and a GUI smoke test. |
+| **Tested** | 155 automated tests cover geometry, optics, resist, OPC, verification, calibration, export, plate rules and a GUI smoke test. |
 | **Scriptable** | The whole engine is a plain Python package (`lithomask`) — use it from a notebook or a batch script without the GUI. |
 | **Lightweight** | One ~110 MB portable executable, or a standard Python install of eight well-known packages. |
 
@@ -294,7 +294,7 @@ Technical derivations and sources (Hopkins/TCC/SOCS, resist model, cost function
 
 ```bash
 pip install -r requirements.txt
-python -m pytest -q          # 144 tests; the full suite takes about 10 minutes
+python -m pytest -q          # 155 tests; the full suite takes about 10 minutes
 ```
 
 The GUI smoke test runs headless (`QT_QPA_PLATFORM=offscreen`).

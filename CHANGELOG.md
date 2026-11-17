@@ -19,7 +19,7 @@ First public, open-source release.
 - Model calibration against CD, space and edge-placement gauges.
 - Export: GDSII, OASIS, CIF, DXF, `.map` sidecar and a JEOL52 hand-off package (fractured GDSII, Layout BEAMER job script, fields, dose table).
 - Windows installer (`LithoMask-Setup.exe`), portable executable (`LithoMask.exe`) and a 22-page User Guide.
-- 144 automated tests.
+- 155 automated tests.
 
 ### Fixed
 - Packaged executable failed to start with `ImportError: DLL load failed while importing QtCore` because an older Visual C++

@@ -77,7 +77,7 @@ python -m lithomask.gui examples/projects/contacts.mop   # open a file directly
 
 ### 5. (Optional) Run the test suite
 ```bash
-python -m pytest -q              # 144 tests, about 10 minutes
+python -m pytest -q              # 155 tests, about 10 minutes
 ```
 
 ### 6. (Optional) Build your own executable and installer
